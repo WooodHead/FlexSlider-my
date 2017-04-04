@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="main" class="slider">
+        <section>
+            <div class="flexslider">
+                <div class="flex-view-port">
+                    <ul class="slides">
+                        <li><img src="images/kitchen_adventurer_cheesecake_brownie.jpg" draggable="false"></li>
+                        <li><img src="images/kitchen_adventurer_lemon.jpg" draggable="false"></li>
+                        <li><img src="images/kitchen_adventurer_donut.jpg" draggable="false"></li>
+                        <li><img src="images/kitchen_adventurer_caramel.jpg" draggable="false"></li>
+                    </ul>
+                </div>
+            </div>
+            <ol class="flex-control-nav">
+                <li><a href="#" class="flex-active">1</a></li>
+                <li><a href="#" class="flex-active">2</a></li>
+                <li><a href="#" class="flex-active">3</a></li>
+                <li><a href="#" class="flex-active">4</a></li>
+            </ol>
+        </section>
+
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
+    </script>
+
+    <script src="../jquery.flexslider.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+
+            $('.flexslider').flexslider({
+
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
